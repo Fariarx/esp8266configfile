@@ -1,4 +1,4 @@
-# Esp8266ConfigFile
+# ESP8266 Config write/read
 Simple byte write/read into flash with serialization/deserialization of config's struct. 
 Limited only by the flash memory of your controller.
 
