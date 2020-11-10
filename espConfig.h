@@ -56,18 +56,4 @@ bool ReadCfg(T &value)
     SPIFFS.end(); 
     return 1; 
 }
-
-struct config_t
-{
-    int ini = 0;
-    char struct_passwoed[32];
-    signed int struct_timeOffset;
-    bool temperatureListSet = false;
-    char temperatureList[400];
-    bool temperatureListDaySleepSet = false;
-    char temperatureListDaySleep[400];
-    int offHeatingTimer = 0;
-    int daySleepTimer = 0;
-    bool heatingState = true;
-    int rebootCount = 0;
-};
+ 
