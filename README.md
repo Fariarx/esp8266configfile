@@ -1,6 +1,6 @@
 # Esp8266ConfigFile
 Simple byte write/read into flash with serialization/deserialization of config's struct. 
-Limited only by the memory of your controller.
+Limited only by the flash memory of your controller.
 
 # Example
 Write/read struct:
