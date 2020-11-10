@@ -18,6 +18,8 @@ config_t configuration;
 
 void setup()
 {
+  Serial.begin(115200);
+  
   if (ReadCfg(configuration))
   {
     Serial.println("Restored config!");
@@ -29,5 +31,9 @@ void setup()
   
   delay(5000);
   ESP.reset();
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
 }
 ```
