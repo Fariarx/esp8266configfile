@@ -29,27 +29,4 @@ bool ReadCfg(T &value)
     }  
 
     return 1;
-}
-
-struct config_t
-{
-    int ini = 0;
-    char struct_passwoed[32];
-    signed int struct_timeOffset;
-    bool temperatureListSet = false;
-    char temperatureList[400];
-    bool temperatureListDaySleepSet = false;
-    char temperatureListDaySleep[400];
-    int offHeatingTimer = 0;
-    int daySleepTimer = 0;
-    bool heatingState = true;
-    int rebootCount = 0;
-    unsigned long currentTime = 0;
-    float default_temperature = -5;
-    float forced_temperature = NULL;
-    bool relayAlwaysOn = false;
-    int rebootEvery = 10;
-    float temperatureTolerance = 1;
-    bool wasSetSettings = false;
-    bool wasAutoReboot = false;
-};
+} 
