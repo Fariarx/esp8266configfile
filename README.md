@@ -6,7 +6,9 @@ Limited only by the flash memory of your controller.
 Write/read struct:
 
 ```C
-#include <espConfig.h>
+//#include <espConfig.h> - file system
+//or
+//#include <eepromConfig.h> - eeprom
 
 struct config_t
 { 
